@@ -1,0 +1,149 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+  background-image: url("../../public/assets/login-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  height: 215px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+  /* margin-top: 150px; */
+}
+
+.signup-button {
+  border: none;
+  background-color: coral;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 10px;
+  color: white;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-field-container {
+  width: 400px;
+  height: calc(100vh - 300px);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.login-title {
+  font-size: 40px;
+  margin: 20px 0px;
+}
+
+.login-text {
+    width: 300px;
+  font-size: 15px;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.login-email {
+  border: solid black 2px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 30px;
+  margin: 5px 0px;
+  
+}
+
+.login-input {
+  border: none;
+  width: 270px;
+  margin-left: 20px;
+}
+
+.login-input:focus {
+  outline: none;
+}
+
+.login-password {
+  border: solid black 2px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 30px;
+  margin: 5px 0px;
+}
+
+.login-prob-text {
+  align-self: flex-start;
+  margin-left: 50px;
+}
+
+.login-button {
+  width: 300px;
+  height: 40px;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.other-login-option {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+  width:300px;
+}
+
+.google-opt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #DBE2E9;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+.apple-opt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #DBE2E9;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+.fb-opt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #DBE2E9;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
